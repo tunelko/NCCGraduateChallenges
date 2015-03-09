@@ -1,2 +1,14 @@
-flag1: <!-- Always check your AJAX 4d1e2e92a6f662533c2fff08a66d0c4b22e6987d44522d6ea9fedb04431b8079 --> 
-flag2: /flag -- Yeah, I don't think so...<!--13c4f813a2f542b8445c06f8c4d9b100526930d37b8cb0cc339eff6bbdee3d8e-->
+flag 2: aad326d06d84a3a44a3c07a5c0a343844e3e7f72cde4266717a9fb068e5c3c72
+
+$ python justbeaitclock_01_02.py
+
+Base64:  RjRGWkwyTUdDRFEwSDkwSE80TUNaQlFJRERVUEJLQjBSNU9NNzY2MFZYSEM3MUJLRlBHUk9JNURRTE5aNDBZRQ==
+Reverse:  F4FZL2MGCDQ0H90HO4MCZBQIDDUPBKB0R5OM7660VXHC71BKFPGROI5DQLNZ40YE
+Swap:  EY04ZNLQD5IORGPFKB17CHXV0667MO5R0BKBPUDDIQBZCM4OH09H0QDCGM2LZF4F
+
+[<div class="alert alert-dismissible alert-success closable">
+<button class="close" data-dismiss="alert" type="button">×</button>
+<strong>Well done!</strong> Here is your flag: <br/>Here's the flag: aad326d06d84a3a44a3c07a5c0a343844e3e7f72cde4266717a9fb068e5c3c72
+                    </div>]
+flag3: <!-- Always check your AJAX 4d1e2e92a6f662533c2fff08a66d0c4b22e6987d44522d6ea9fedb04431b8079 --> 
+flag1: /flag -- Yeah, I don't think so...<!--13c4f813a2f542b8445c06f8c4d9b100526930d37b8cb0cc339eff6bbdee3d8e-->
