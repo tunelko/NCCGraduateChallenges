@@ -1,0 +1,14 @@
+Trying sha1 ( cbc387ee7651b1549a1198c8b9128d56b9825069 ) ... oefgNCCGRADCHALLENGE  =  cbc387ee7651b1549a1198c8b9128d56b9825069
+Solution is  cbc387ee7651b1549a1198c8b9128d56b9825069 oefgNCCGRADCHALLENGE
+[<div class="alert alert-dismissible alert-success closable">
+<button class="close" data-dismiss="alert" type="button">×</button>
+<strong>Well done!</strong> Here is your flag: <br/>Here's the flag: a67fa6ad98bea95b1c70ad5ba4766487fc7e077f8af0155c4fb7b0c9e191ca9c
+                    </div>]
+
+flag 2: 
+OPTIONS /a37bd1eea839e86/ HTTP/1.1
+Yup, you should always check your OPTIONS! cf8d52c022ddd3f390adb8cf95b70f41682a5dc5e4b778e0fb1ed96b6241e4ba
+
+flag3
+GET /a37bd1eea839e86/%2ehtaccess~ HTTP/1.1
+Sometimes people don't delete vi/vim swap files from the web server c8f16e8a98645dc0984a4a711130e15f4ecadf82637a191d0579a06746a4f1c3

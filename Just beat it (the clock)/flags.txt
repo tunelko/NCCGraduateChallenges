@@ -1,0 +1,2 @@
+flag1: <!-- Always check your AJAX 4d1e2e92a6f662533c2fff08a66d0c4b22e6987d44522d6ea9fedb04431b8079 --> 
+flag2: /flag -- Yeah, I don't think so...<!--13c4f813a2f542b8445c06f8c4d9b100526930d37b8cb0cc339eff6bbdee3d8e-->

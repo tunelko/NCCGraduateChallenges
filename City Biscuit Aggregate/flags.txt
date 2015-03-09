@@ -1,0 +1,12 @@
+ImportantFunctions.cs : 
+public string getKey()
+		{
+			return Encoding.UTF8.GetString(Convert.FromBase64String("YTA0ZjUyZWI4YWI2MmI5NWY0YWFlNDExZTk4YmQzNzVjNjMxZTVkMzZmMzY2Nzc4N2MxMzQ3OTUzZDQ2NTA5Mw=="));
+		}
+
+In [5]: x.decode('base64')
+Out[5]: 'a04f52eb8ab62b95f4aae411e98bd375c631e5d36f3667787c1347953d465093'
+
+flag1: a04f52eb8ab62b95f4aae411e98bd375c631e5d36f3667787c1347953d465093 (key)
+
+flag2: e564bdcf3830b8bfb68b3ea86ee9565e057d5f1a26a5f095eb29b5743a71cd83 (secret)
